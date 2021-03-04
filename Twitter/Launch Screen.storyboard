@@ -15,13 +15,45 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="ZEx-YE-3tt">
+                                <rect key="frame" x="63.5" y="308.5" width="287" height="279"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="287" id="NM3-Hz-WHa"/>
+                                    <constraint firstAttribute="height" constant="279" id="Rly-oR-vfF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRC-eg-u4d">
+                                <rect key="frame" x="115" y="292" width="184.5" height="63"/>
+                                <color key="tintColor" red="0.26653513309999999" green="0.64553534980000005" blue="0.93519300220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Twitter">
+                                        <attributes>
+                                            <color key="NSColor" red="0.26653513309999999" green="0.64553534980000005" blue="0.93519300220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="58" name="MarkerFelt-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZEx-YE-3tt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="U3G-kA-ZG5"/>
+                            <constraint firstItem="iRC-eg-u4d" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gRY-Ao-sat"/>
+                            <constraint firstItem="ZEx-YE-3tt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="n3h-V8-5FP"/>
+                            <constraint firstItem="iRC-eg-u4d" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-124.5" id="rqc-Rr-qXe"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="50.724637681159422" y="374.33035714285711"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TwitterLogoBlue" width="200" height="200"/>
+    </resources>
 </document>

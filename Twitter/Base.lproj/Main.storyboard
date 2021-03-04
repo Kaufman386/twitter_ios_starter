@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tweetCell" rowHeight="120" id="lDR-kj-QRz" customClass="TweetCellTableViewCell" customModule="Twitter" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="tweetCell" rowHeight="120" id="lDR-kj-QRz" customClass="TweetCellTableViewCell" customModule="Twitter" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lDR-kj-QRz" id="zUp-z3-OrF">
@@ -65,10 +65,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yyW-dP-30Z">
-                                            <rect key="frame" x="20" y="11" width="65" height="65"/>
+                                            <rect key="frame" x="10" y="11" width="75" height="75"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="65" id="MpH-6n-GSV"/>
-                                                <constraint firstAttribute="height" constant="65" id="lUJ-b3-8Oi"/>
+                                                <constraint firstAttribute="width" constant="75" id="MpH-6n-GSV"/>
+                                                <constraint firstAttribute="height" constant="75" id="lUJ-b3-8Oi"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Mikael Kaufman" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZ5-hQ-4en">
@@ -85,7 +85,8 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="yyW-dP-30Z" firstAttribute="leading" secondItem="zUp-z3-OrF" secondAttribute="leadingMargin" id="Sme-yZ-RvL"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yyW-dP-30Z" secondAttribute="bottom" constant="30" id="3Xp-iG-xSp"/>
+                                        <constraint firstItem="yyW-dP-30Z" firstAttribute="leading" secondItem="zUp-z3-OrF" secondAttribute="leadingMargin" constant="-10" id="Sme-yZ-RvL"/>
                                         <constraint firstItem="yyW-dP-30Z" firstAttribute="top" secondItem="zUp-z3-OrF" secondAttribute="topMargin" id="Vn7-Q7-rT6"/>
                                         <constraint firstItem="pZ5-hQ-4en" firstAttribute="leading" secondItem="yyW-dP-30Z" secondAttribute="trailing" constant="8" id="c2A-D7-pSj"/>
                                         <constraint firstItem="pZ5-hQ-4en" firstAttribute="top" secondItem="zUp-z3-OrF" secondAttribute="topMargin" id="eeB-GD-yEP"/>

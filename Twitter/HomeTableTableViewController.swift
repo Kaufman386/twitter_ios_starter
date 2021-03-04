@@ -106,6 +106,7 @@ class HomeTableTableViewController: UITableViewController {
             cell.profileImageView.image = UIImage(data: imageData)
         }
         
+        
         return cell
     }
     

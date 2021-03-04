@@ -24,13 +24,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRC-eg-u4d">
-                                <rect key="frame" x="115" y="292" width="184.5" height="63"/>
+                                <rect key="frame" x="129.5" y="284.5" width="155" height="78.5"/>
                                 <color key="tintColor" red="0.26653513309999999" green="0.64553534980000005" blue="0.93519300220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Twitter">
+                                    <fragment content="Chirp">
                                         <attributes>
                                             <color key="NSColor" red="0.26653513309999999" green="0.64553534980000005" blue="0.93519300220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="58" name="MarkerFelt-Thin"/>
+                                            <font key="NSFont" size="72" name="MarkerFelt-Thin"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
